@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto Slab', serif;
+
+}
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(129, 186, 209, 0.548);
+    border: 2px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: #00008b;
+}
+h3 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.card {
+    margin-bottom: 20px;
+    
+}
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: larger;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    color: #333;
+}
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #205a6be3; /* Submit button background color */
+    color: #fff; /* Submit button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-left: 120px; 
+
+}
+input[type="submit"]:hover {
+    background-color:#093a49; /* Submit button hover background color */
+    font-size: 22px;
+}
+select{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Border color for select and input fields */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Background color with transparency */
+    color: #333; /* Text color for select and input fields */
+    float: right;
+    margin-left: 10px;
+}
+.title-wrapper {
+    overflow: hidden; /* Clear floats */
+    display: flex;
+    align-items: center;
+}
+.title-wrapper > h3 {
+    flex: 1;
+}
+#first {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: right;
+}
+#second {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: right;
+}
+#third {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: right;
+}
+#fourth {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.486);
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: right;
+}
+#fifth {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: right;
+}

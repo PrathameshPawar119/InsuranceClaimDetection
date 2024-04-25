@@ -1,0 +1,202 @@
+*{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#navbar {
+  display: flex;
+  height: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white; 
+  z-index: 1000;
+
+}
+#navbar::before {
+  content: " ";
+  background-image: linear-gradient(#033747,#012733);
+  position: fixed;
+  height: 12%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+#logo img {
+  height: 3.5rem;
+  width: 4.5rem;
+  position: relative;
+  top: 0.5rem;
+  left: 0.2rem;
+  border-radius: 50%;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 37px 0px;
+}
+#navbar ul li {
+  margin: 1rem;
+  padding: 1rem;
+}
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+#navbar ul li a:hover {
+  color: #ADD8E6;
+  border-bottom: .1rem solid white;
+  padding-bottom: .5rem;
+  font-size: 22px;
+}
+.login {
+  margin: 12px 1181px;
+  padding: 14px 14px;
+  border: 2px solid;
+  width: 45px;
+  height: 16px;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+#navbar ul li a:hover,
+.login:hover {
+  color: #ADD8E6;
+  padding-bottom: .5rem;
+  font-size: 22px;
+  height: 25px;
+}
+.sec{
+  height: 60vh;
+  background: url('https://media.istockphoto.com/id/1409928874/photo/man-signature-document-for-life-insurance-investment.jpg?s=612x612&w=0&k=20&c=YrSde_6-Ne8Ee6i8M_lby3OPJrk8y41tS4ChBPUn43o=') no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 125px 21px;
+  font-family: 'Roboto Slab', serif;
+}
+.sec1{
+  font-size: 3.5rem;
+  color: black;
+  padding-top: 0px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.btn{
+  padding: 9px 27px;
+  margin-left: 44%;
+  margin-top: 100px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto Slab', serif;
+}
+.btn:hover{
+  cursor: pointer;
+  font-size: 22px;
+  
+}
+.section{
+  background-image: url(https://i0.wp.com/www.knoxalliance.store/wp-content/uploads/2017/05/light-color-background-images-for-website-top-hd-images-for-free-background-for-website-in-light-color-1-1024x640.jpg?ssl=1);
+  margin: 6px 0px;
+  padding: 32px 28px;
+  font-family: 'Roboto Slab',serif;
+  padding-top: 5rem;
+  height: 80vh;
+}
+.para {
+  text-align: justify;
+  margin-top: 30px;
+  padding: 25px;
+  width: 500px;
+  height: 400px;
+}
+#about {
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  position: relative;
+  z-index: 1;
+}
+#about::after {
+  content: '';
+  position: absolute;
+  top: 130px;
+  right: 25px;
+  bottom: 10px;
+  width: 50%; /* Adjust as needed */
+  background-image: url(https://kmrdpartners.com/wp-content/uploads/2017/10/KMRD-Claims-Management.jpg); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.paragraph {
+  text-align: justify;
+  padding: 25px 26px;
+}
+.heading1 {
+  position: relative;
+}
+.heading1::after {
+  content: '';
+  position: absolute;
+  top: 40px; 
+  left: 0;
+  width: 1300px; 
+  height: 2px;
+  background-color: #033747; 
+}
+
+.heading-border {
+  border-bottom: 2px solid #033747; 
+  padding-bottom: 10px; 
+  margin-bottom: 5px; 
+}
+#contact{
+  background-image: url(https://i0.wp.com/www.knoxalliance.store/wp-content/uploads/2017/05/light-color-background-images-for-website-top-hd-images-for-free-background-for-website-in-light-color-1-1024x640.jpg?ssl=1);
+  display: flex;
+}
+.con{
+  font-family: 'Roboto Slab',serif;
+  padding: 19px 3px;
+  margin: 40px;
+ 
+}
+
+
+  
+  
+ 
+ 
+  
+  
+  
+  
+  
+  
+ 
+  
+ 
+  
+ 
+ 
+  
+ 
+  
+
+ 
+
+
+
+
+  
+  
+  
+  
+  

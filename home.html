@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Insurance Claim Validation</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img
+          src="logo.png"
+          alt="MyOnlineMealDeal.com"
+        />
+      </div>
+      <ul>
+        <li class="item"><a href="#home" onclick="scrollToSection('#home')">Home</a></li>
+        <li class="item"><a href="#about" onclick="scrollToSection('#about')">About Us</a></li>
+        <li class="item"><a href="#faqs" onclick="scrollToSection('#faqs')">FAQs</a></li>
+        <li class="item"><a href="#contact" onclick="scrollToSection('#contact')">Contact Us</a></li>
+      </ul>
+      <div class="login" id="loginButton"><a href="http://127.0.0.1:5500/login.html"></a>Login</div>
+    </nav>
+    </nav>
+    <section class="sec" id="home">
+      <div class="sec1">Medical Insurance Claim Validation</div>
+      <button class="btn">Get Started</button>
+    </section>
+    <section class="section" id="about">
+      <div class="heading-border">
+        <h1 class="heading">About Us</h1>
+      </div>
+      <div class="content"> 
+        <div class="para">
+        Welcome to Medical Insurance Claim Validation, where we are dedicated to  
+        revolutionizing the medical insurance claim validation process. With a 
+        passion for efficiency and accuracy, our experienced team brings a wealth 
+        of expertise to every claim we handle. Utilizing cutting-edge technology 
+        and a commitment to compliance, we ensure seamless validation while maximizing 
+        reimbursements for healthcare providers. Our customer-centric approach guarantees 
+        transparent communication and personalized support, offering peace of mind to 
+        both providers and patients. To be your partner in navigating the complexities
+        of medical insurance claims with confidence and ease.
+        </div>
+      </div>  
+        
+    </section>
+    <section class="section" id="faqs">
+      <div class="heading-border">
+        <h1 class="heading">FAQs</h1>
+      </div>
+      <div class="paragraph">
+        <p>
+          <b>Q: What is medical insurance claim validation?</b> <p>A: Medical insurance
+            claim validation is the process of reviewing and verifying the accuracy and
+            legitimacy of medical claims submitted by healthcare providers to insurance
+            companies. It involves ensuring that the services rendered are covered under
+            the patient's insurance policy and that the claim meets all necessary 
+            requirements for reimbursement.</p>
+        </p>
+        <br>
+
+        <p>
+          <b>Q: Why is medical insurance claim validation important?</b><p>A: Medical insurance 
+            claim validation is crucial for both healthcare providers and insurance companies. 
+            It helps prevent fraud and abuse, ensures compliance with insurance policies and 
+            regulations, and maximizes reimbursements for providers while controlling costs 
+            for insurers. Additionally, accurate validation contributes to a smoother claims 
+            processing experience for patients.</p> 
+        </p>
+        <br>
+
+        <p>
+          <b>Q: What does the medical insurance claim validation process entail?</b><p>A: The 
+            validation process typically involves reviewing the claim details, including the 
+            patient's medical records, diagnosis codes, treatment procedures, and insurance 
+            policy coverage. This may require communication between the healthcare provider, 
+            insurance company, and any relevant third parties. Advanced technology and analytics 
+            may also be utilized to assess claim accuracy and compliance.</p>
+        </p>
+        <br>
+
+        <p>
+          <b>Q: How long does medical insurance claim validation take?</b><p>A:
+            The time taken for medical insurance claim validation can vary depending on 
+            factors such as the complexity of the claim, availability of documentation, 
+            and the efficiency of communication between parties involved. In general, 
+            validation can take anywhere from a few days to several weeks.</p> 
+        </p>
+        <br>
+
+        <p>
+          <b>Q: How can patients track the status of their medical insurance claims?</b><p>A: 
+            Patients can typically track the status of their medical insurance claims through 
+            their insurance company's online portal, customer service hotline, or mobile app. 
+            Healthcare providers may also provide updates on claim status during follow-up 
+            appointments or through patient portals.</p>
+        </p>
+      </div>
+    </section>
+    <section class="section" id="contact">
+        <h1 class="heading1">Contact Us</h1>   
+      <div class="con">
+        <br>
+        <br>
+        <p>Name: Shruti Sabat</p>
+        <p>Email id: <a href="">cm.b.37shruti.sabat@gmail.com</a></p><br><br><br>
+
+
+        <p>Name: Lalit Patil</p>
+        <p>Email id: <a href="">cm.b.20lalit.patil@gmail.com</a></p><br><br><br>
+      
+    
+        <p>Name: Jitesh Shringare</p>
+        <p>Email id: <a href="">cm.b.46jitesh.shringare@gmail.com</a></p><br><br><br>
+      
+     
+        <p>Name: Sagrika Waghmare</p>
+        <p>Email id: <a href="">cm.b.56sagrika.waghmare@gmail.com</a></p><br>
+      </div>
+    </section>
+    <script type="module" src="script.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loginButton = document.getElementById('loginButton');
+        loginButton.addEventListener('click', function() {
+          window.location.href = 'http://127.0.0.1:5500/login.html';
+        });
+      });
+      const button = document.querySelector('.btn');
+      button.addEventListener('click', () => {
+        window.location.href = "http://127.0.0.1:5500/form.html"; 
+      });
+      function scrollToSection(sectionId) {
+        const section = document.querySelector(sectionId);
+        if (section) {
+          const headerHeight = document.querySelector('#navbar').offsetHeight;
+          window.scrollTo({
+            top: section.offsetTop - headerHeight,
+            behavior: 'smooth'
+          });
+        }
+      }
+    </script>
+  </body>
+</html>
